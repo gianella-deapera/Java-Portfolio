@@ -1,0 +1,9 @@
+package polymorphism3;
+
+public class Bike extends Vehicle{
+
+	@Override
+	public void go() {
+		System.out.println("*The bike begins moving.*");
+	}
+}
